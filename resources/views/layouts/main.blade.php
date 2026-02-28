@@ -66,7 +66,7 @@
                 Taller PHP Avanzado - 2026-1 | Cristian Camilo Echeverri Giraldo
             </p>
             <p class="text-gray-500 text-sm mt-2">
-                Laravel {{ LaravelVersion() }} & PHP {{ PHP_VERSION }}
+                Laravel {{ app()->version() }} & PHP {{ PHP_VERSION }}
             </p>
         </div>
     </footer>
